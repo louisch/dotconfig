@@ -24,3 +24,4 @@ keepass /storage/Dropbox/apps/louis.kdbx &
 mpd ~/.config/mpd/mpd.conf &
 nitrogen --restore &
 tint2+compton_for_openbox &
+volumeicon &
