@@ -1,5 +1,8 @@
+fcitx/dbus/
 fontconfig/
 KeePass/
 libreoffice/
 pulse/
 .mono/
+mpd/log
+mpd/pid
