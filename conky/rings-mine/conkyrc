@@ -1,0 +1,69 @@
+# Conky, a system monitor, based on torsmo
+#
+# Any original torsmo code is licensed under the BSD license
+#
+# All code written since the fork of torsmo is licensed under the GPL
+
+# Avoid flicker
+double_buffer yes
+
+# Behaviour
+update_interval 2
+cpu_avg_samples 2
+net_avg_samples 2
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+# prevent window from moving
+use_spacer none
+minimum_size 5 5
+
+# Background
+background no
+
+# Borders
+draw_borders no
+border_inner_margin 1
+border_outer_margin 0
+
+# Colours
+default_color white
+default_outline_color white
+
+# Fonts
+use_xft yes
+xftfont DejaVu Sans Mono:size=12
+uppercase no
+
+# Graph
+show_graph_scale no
+show_graph_range no
+
+# Own Window allows running of multiple simultaneous conkys
+own_window yes
+own_window_class Conky
+own_window_type desktop
+#own_window_hints sticky,skip_page,skip_taskbar,rundecorate
+own_window_argb_visual yes
+own_window_transparent yes
+
+# Outline
+draw_outline no
+
+# Outside programs
+mpd_port 7201
+
+# Position
+alignment top_left
+gap_x 0
+gap_y 0
+
+# Shades
+draw_shades no
+
+# Lua
+lua_load ./conky-widgets.lua
+lua_draw_hook_pre widgets
+
+TEXT

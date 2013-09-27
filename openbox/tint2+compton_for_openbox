@@ -1,0 +1,2 @@
+compton --config ~/.config/compton.conf &
+sleep 1 && tint2 &
