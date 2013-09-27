@@ -20,7 +20,7 @@ xbacklight -fade 0 -set 40 &
 
 dropboxd &
 fcitx &
-keepass /storage/Dropbox/apps/louis.kdbx &
+keepassx &
 mpd ~/.config/mpd/mpd.conf &
 nitrogen --restore &
 tint2+compton_for_openbox &
