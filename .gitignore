@@ -6,3 +6,4 @@ pulse/
 .mono/
 mpd/log
 mpd/pid
+mpd/state
